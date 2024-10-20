@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+     border: border-box;
+}
+.navbar{
+    
+    border-style: groove;
+    height: 70px;
+    width: auto;
+    background-color:cornflowerblue;
+    display: flex;
+   align-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    .home:hover{
+        border: 2px solid blue ;
+        
+     }
+     .APP:hover{
+        border: 2px solid blue;
+     }
+     .GAMES:hover{
+        border:2px solid blue ;
+     }
+     .search-container:hover{
+        border: 2px solid blue;
+     }
+     .grocery-logo:hover{
+        border: 2px solid blue;
+     }
+     input:hover{
+        border: 2px dotted orange;
+     }
+     button:hover{
+        background-color: cornflowerblue;
+        transition: background-color 0.3s ease;
+     }
+    
+}
+.home{
+ text-align: left;
+ text-decoration: none;
+ a{
+    text-decoration: none;
+ }
+ display: flex;
+ padding: 10px;
+ color:black;
+ font-size: 30px;
+ font-weight: 500;
+
+}
+.APP{
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+}
+.GAMES{
+    padding: 10px;
+    color:black;
+    font-size: 30px;
+}
+.search-container{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41px; 
+    border-radius: 5px;
+    /*   width: 300px;
+    padding: 3px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    height: 31px;*/
+}
+#searchbar{
+    width: 450px;
+    border-radius: 5px;
+    font-size: 35px;
+    border: 2px solid #ccc;
+    
+    
+    height: 37px;
+}
+/*.search-bar:focus{
+    border-color: #66afe9;
+}*/
+.search-button{
+    padding: 10px;
+    
+    display: flex;
+    color: wheat;
+}
+.search-button{
+    background-image: url("image.jpg.svg");
+    background-size: cover;
+}
+.grocery-logo{
+    margin-left: 10px;
+    height: 40px;
+    width: 50px;
+    background-image: url("image.jpg2.svg");
+    background-size: cover;
+    
+}
+header{ 
+button{
+   background-color: #28a728;
+   padding: 10px;
+   margin-left: 100px;
+}}
+.signup{
+    margin-left:5px ;
+}
+.bookmark{
+    background-image: url(image.jpg3.svg);
+    margin-left: 10px;
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    
+}
+
+/* Main content page*/
+main{
+    
+}
+/*intro section*/
+.intro{
+    padding: 20px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.intro {
+    margin-top: 0;
+}
+
+/*features section*/
+.features{
+background-color: lightgreen;
+padding: 40px 0;
+}
+ h3{
+    color:red;
+    text-align: center;
+    border-style: ridge;
+ }
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(300px,1fr));
+    gap: 20px;
+}
+.feature-box{
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.feature-box h4{
+    margin-top: 0;
+}
+/*feature 1*/
+
+.feature1{
+    background-color: lightgreen;
+    padding-bottom:40px ;
+    }
+     
+     
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit ,minmax(300px,1fr));
+        gap: 20px;
+    }
+    .feature-box1{
+        background-color: cornflowerblue;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .feature-box1 h4{
+        margin-top: 0;
+    }
+
+    /*footer page*/
+footer{
+    background-color: darkseagreen;
+    
+    /*padding: 10px;*/
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+.copyright{
+    padding: 10px;
+}
+span{
+    padding: 10px;
+}
+
+/*responsive design*/
+/*@media(max-width:768px){
+    header div class{
+        display: block;
+        margin: 10px;
+    }
+}*/
+/*call to action button
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a728;
+    color: white;
+    border-radius: 5px;
+}*/
+
+/*form*/
+.my form{
+    background-color: cornflowerblue;
+    margin: 010px,10px 10px 10px;
+}
+form{ 
+input[type="text"],
+input[type="email"] {
+  border: 2px solid #000;
+  margin-bottom: 10px;
+  padding: 10px;
+  width:300px;
+}}
+
+input[type="submit"] {
+  border: 3px solid #333;
+  background-color: #999;
+  border-radius: 5px;
+  padding: 10px 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+/*input[type="submit"]:hover, input[type="submit"]:focus {
+  background-color: #333;
+}*/
+form{
+    button{
+        background-color: aqua;
+        box-sizing: border-box;
+        margin-left: 45px;
+
+    }
+}
+
+footer{
+    button:hover{
+          background-color: #28a728;
+    }
+ }
+
+.FLAG{
+    background-image: url(image.jpg4..png);
+    background-size: cover;
+    display:flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
